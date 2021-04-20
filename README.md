@@ -38,8 +38,8 @@ rm -fr .git/modules
 サイト設定
 
 ```shell
-cp -pr themes/dream/exampleSite/config .
-mv config.toml config.toml.bak
+cp -p themes/airspace/exampleSite/config.toml .
+cp -pr themes/airspace/exampleSite/content .
 ```
 
 ## Link
